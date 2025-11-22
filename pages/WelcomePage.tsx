@@ -61,7 +61,7 @@ export default function WelcomePage({ onNext }: WelcomePageProps) {
         />
       </div>
       <div
-        className="absolute left-2 md:left-6 bottom-44 text-6xl md:text-8xl hidden sm:block"
+        className="absolute left-2 md:left-6 bottom-44 text-6xl md:text-8xl sm:block"
         style={{ animation: "sway 3s ease-in-out infinite" }}
       >
         <img
@@ -85,7 +85,7 @@ export default function WelcomePage({ onNext }: WelcomePageProps) {
         />
       </div>
       <div
-        className="absolute right-2 md:right-6 bottom-40 text-5xl md:text-7xl animate-bounce hidden sm:block"
+        className="absolute right-2 md:right-6 bottom-40 text-5xl md:text-7xl animate-bounce sm:block"
         style={{ animationDelay: "0.3s" }}
       >
         <img
