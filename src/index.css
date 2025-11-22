@@ -1,0 +1,83 @@
+@import 'tailwindcss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fca5c3;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f97797;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Responsive helpers: ensure images/gifs scale and small-screen typography */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Container padding for small devices */
+@media (max-width: 640px) {
+  body {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .text-4xl {
+    font-size: 1.6rem;
+    line-height: 1.1;
+  }
+
+  .text-lg {
+    font-size: 0.95rem;
+  }
+}
+
+/* Slight adjustments for small tablets */
+@media (min-width: 641px) and (max-width: 900px) {
+  .text-4xl {
+    font-size: 2.2rem;
+  }
+  .text-6xl {
+    font-size: 3rem;
+  }
+}
