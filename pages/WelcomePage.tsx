@@ -107,7 +107,7 @@ export default function WelcomePage({ onNext }: WelcomePageProps) {
       {/* Love Message */}
       <div className="text-center max-w-2xl mx-auto mb-12">
         <h1 className="text-4xl md:text-6xl font-serif font-bold mb-4 bg-gradient-to-r from-rose-500 via-pink-500 to-amber-500 bg-clip-text text-transparent">
-          Happy Birthday with an Advance Gift 🎁
+          Happy Birthday Cutuuu with an Advance Gift 🎁
         </h1>
 
         <p className="text-lg md:text-2xl text-rose-600 font-semibold mb-6">Only 10 Days Left!</p>
